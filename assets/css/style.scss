@@ -1,0 +1,22 @@
+@import './settings/variables';
+@import './settings/mixins';
+@import './settings/reset';
+@import './header';
+@import './section/section1';
+@import './section/section2';
+@import './section/section3';
+@import './section/section4';
+@import './footer';
+
+@media (max-width:$mobile_size){
+    @import './mobile/header';
+    @import './mobile/section';
+    @import './mobile/footer';
+}
+@media (max-width:$desktop_size){
+    @import './desktop/header';
+    @import './desktop/section';
+    @import './desktop/footer';
+}
+
+

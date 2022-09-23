@@ -1,0 +1,74 @@
+header{
+    .hero{
+        background-image: url("../../images/desktop/image-header.jpg");
+        background-size: contain;
+        height:500px;
+
+        .banner{
+            .logo_nav{
+                width: 95%;
+                margin-left: 2.5%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 30px;
+                nav{
+                    ul{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        list-style: none;
+
+                        li{
+                            margin-right: 40px;
+                            // height: 50px;
+                           
+                            // &:hover{
+                            //     border-radius: 50px;
+                            //     background-color: $Dark_moderate_cyan;
+                                
+                    
+                            // }
+                            a{
+                                text-decoration: none;
+                                color: $White;
+                                font-family: $font_family1;
+                                font-size: 18px;
+                                &:hover{
+                                    border-radius: 50px;
+                                    text-transform: uppercase;
+                                    font-family: $font_family2;
+                                    font-weight: 400;
+                                    padding: 10px 20px 10px 20px;
+                                    background-color: $Dark_moderate_cyan;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            h1{
+                padding: 50px 0px 30px 0px;
+                font-weight: 700;
+                text-align: center;
+                color: $White;
+                font-family: $font_family2;
+                font-size: 60px;
+                text-transform: uppercase;
+            }
+            p{
+                animation-name: header_anim;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                margin-left: 500px;
+                // svg{
+                //     animation-name: header_anim;
+                //     animation-duration: 5s;
+                //     animation-iteration-count: infinite;
+                //     animation-timing-function: linear;
+                // }
+            }
+        }
+    }
+}
