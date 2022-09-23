@@ -1,3 +1,17 @@
 footer{
     background-color:$Dark_moderate_cyan;
+    .logo{
+        margin-left: 44%;
+        width: 56%;
+
+    }
+    ul.footer_links{
+        list-style: none;
+        margin-left: 44%;
+        width: 56%;
+        display: flex;
+        li{
+            padding: 30px 0px 30px 60px;
+        }
+    }
 }

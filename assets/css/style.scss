@@ -8,15 +8,16 @@
 @import './section/section4';
 @import './footer';
 
-@media (max-width:$mobile_size){
-    @import './mobile/header';
-    @import './mobile/section';
-    @import './mobile/footer';
-}
 @media (max-width:$desktop_size){
     @import './desktop/header';
     @import './desktop/section';
     @import './desktop/footer';
 }
+@media (max-width:375px){
+    @import './mobile/header';
+    @import './mobile/section';
+    @import './mobile/footer';
+}
+
 
 
