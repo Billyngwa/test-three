@@ -281,7 +281,13 @@ section .section_three .container {
           justify-content: space-between;
 }
 
+section .section_three .container .client_block .client_image {
+  margin: 50px 0px 50px 100px;
+}
+
 section .section_three .container .client_block .client_image img {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -293,6 +299,23 @@ section .section_three .container .client_block p {
   color: #a7abae;
   font-family: "Barlow";
   padding-bottom: 30px;
+}
+
+section .section_three .container .client_block b {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #23303e;
+  font-family: "Fraunces", serif;
+  padding: 100px 0px 60px 100px;
+}
+
+section .section_three .container .client_block span {
+  text-align: center;
+  color: #a7abae;
+  font-size: 12px;
+  font-family: "Barlow";
+  padding: 100px 0px 0px 80px;
 }
 
 section .section_four {
